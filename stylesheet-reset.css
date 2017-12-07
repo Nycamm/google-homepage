@@ -3,6 +3,15 @@
    License: none (public domain)
 */
 
+p, li, {
+	font-family: arial,sans-serif;
+	font-size: 13px;
+}
+
+.location {
+	font-size: 15px;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
