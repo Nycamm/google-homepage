@@ -6,6 +6,11 @@ li {
   display: inline;
 }
 
+body {
+  font-family: arial, sans-serif;
+  font-size: small;
+}
+
 .nav {
   margin: 0;
   padding: 0;
@@ -24,10 +29,15 @@ li {
   padding: 0 7px;
 }
 
+.toolbar a {
+  color: rgba(0,0,0,0.87);
+  text-decoration: none;
+}
+
 #apps {
-  background: url(images/google-images.png) 528px 68px;
+  background: url("images/google-images.png") 528px 68px;
   background-position: -132px -38px;
-  width: 30x;
+  width: 30px;
   height: 30px;
   display: inline-block;
   position: relative;
@@ -35,14 +45,32 @@ li {
   opacity: .55;
 }
 
+#sign-in {
+  position: relative;
+	border: 1px solid #4285f4;
+	outline: none;
+	background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+	border-radius: 3px;
+	padding: 7px 12px;
+	margin-top: 40px;
+}
+
+#sign-in a {
+  color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
 
 .logo {
-  display: block;
-  width: 272px;
+  position: relative;
+	width: 272px;
+	margin: 0 auto;
+	padding-top: 200px;
+}
+
+.logo img {
   height: 92px;
-  margin: auto;
-  padding-top: 109px;
-  clear: right;
+  width: 272px;
 }
 
 .searchbar {
