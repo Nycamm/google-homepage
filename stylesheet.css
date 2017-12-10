@@ -74,14 +74,18 @@ body {
 }
 
 .searchbar {
-
+  width: 584px;
+  height: 44px;
+  margin: 22px auto;
+  box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
 }
 
-.searchbar {
-  display: block;
+.search-text {
   width: 559px;
   height: 34px;
   margin: 0 auto;
-  padding: 109;
-  border-radius: 2px;
+  border-style: none;
+  font-size: 16px;
+  font-family: arial, sans-serif;
+  padding: 5px 10px 5px 15px;
 }
